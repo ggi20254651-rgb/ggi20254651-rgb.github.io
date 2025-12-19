@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhartendu | Android Developer</title>
+    <style>
+        :root {
+            --bg-color: #0d1117; /* GitHub Dark Dim */
+            --text-color: #c9d1d9;
+            --accent-color: #7F52FF; /* Kotlin Logo Purple */
+            --card-bg: #161b22;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 700px;
+            width: 100%;
+            padding: 40px 20px;
+        }
+        h1, h2, h3 { color: #ffffff; }
+        .highlight { color: var(--accent-color); }
+        
+        /* Header Section */
+        header { text-align: center; margin-bottom: 50px; }
+        .avatar {
+            width: 120px;
+            height: 120px;
+            background-color: var(--card-bg);
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 2px solid var(--accent-color);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+        
+        /* Skills Tags */
+        .skills { margin-bottom: 20px; }
+        .tag {
+            background: var(--card-bg);
+            padding: 5px 15px;
+            border-radius: 20px;
+            border: 1px solid #30363d;
+            font-size: 0.9em;
+            margin-right: 8px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        /* Project Cards */
+        .project-card {
+            background-color: var(--card-bg);
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .project-title { font-size: 1.2em; font-weight: bold; margin-bottom: 10px; display: block; }
+        .project-tech { font-size: 0.85em; color: #8b949e; }
+        
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .btn-outline {
+            background-color: transparent;
+            border: 1px solid #30363d;
+            margin-left: 10px;
+        }
+        
+        footer { text-align: center; margin-top: 50px; font-size: 0.8em; color: #8b949e; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="avatar">👨‍💻</div>
+        <h1>Hi, I'm <span class="highlight">Bhartendu</span></h1>
+        <p>Aspiring Android Developer 📱 | MCA Student</p>
+        <div class="skills">
+            <span class="tag">Kotlin</span>
+            <span class="tag">Jetpack Compose</span>
+            <span class="tag">XML</span>
+            <span class="tag">Java</span>
+        </div>
+    </header>
+
+    <section>
+        <h2>🚀 Featured Project</h2>
+        
+        <div class="project-card">
+            <span class="project-title">Peace: Reminder & Focus App</span>
+            <p>A native Android application designed to help students and fitness enthusiasts manage their schedules offline. Built with modern UI principles.</p>
+            <p class="project-tech">Tech: Kotlin, Jetpack Compose, Room Database</p>
+            <a href="#" class="btn">View on GitHub</a> 
+        </div>
+
+        <div class="project-card">
+            <span class="project-title">University Marksheet Manager</span>
+            <p>A utility tool to manage academic records and calculate SGPA/CGPA.</p>
+            <p class="project-tech">Tech: Java, XML</p>
+            <a href="#" class="btn btn-outline">Coming Soon</a>
+        </div>
+    </section>
+
+    <section style="margin-top: 40px;">
+        <h2>📬 Connect</h2>
+        <p>Currently preparing for NIMCET & CUET-PG. Open to collaboration on Android projects.</p>
+        <a href="mailto:your-email@example.com" class="btn">Email Me</a>
+        <a href="https://linkedin.com/in/yourprofile" class="btn btn-outline">LinkedIn</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bhartendu. Hosted on GitHub Pages.</p>
+    </footer>
+</div>
+
+</body>
+</html>
